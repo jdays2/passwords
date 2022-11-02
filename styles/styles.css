@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    background-image: url(../images/outerspace-6.gif);
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+}
+
+.hero{
+    width: 550px;
+    margin: 0 auto;
+    background: rgba(17, 24, 39, 0.8);
+    border-radius: 30px;
+    margin-bottom: 300px;
+    transition: 0.6s;
+}
+
+.hero:hover{
+    box-shadow: 10px 10px #A78BFA;
+}
+
+.generator{
+    width: 446px;
+    margin: 0 auto;
+    margin-top: 210px;
+    transition: 1s;
+}
+
+.generator__title{
+    font-family: 'Karla';
+    font-style: normal;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -0.025em;
+    
+    color: #BAE6FD;
+    padding-top: 49px;
+    transition: 1s;
+}
+
+.generator__title--purple{
+    color: #A78BFA;
+    margin-bottom: 10px;
+    padding-top: 0px;
+}
+
+.generator__title--green:hover{
+    color: #34D399;
+
+}
+
+.generator__subtitle{
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 28px;
+
+    color: #BAE6FD;
+    margin-bottom: 51px;
+}
+
+.generator__button{
+    justify-content: center;
+    align-items: center;
+    padding: 6px 17px 6px 15px;
+
+    background: #C4B5FD;
+    border-radius: 10px;
+
+    font-family: 'Timonium';
+    font-style: normal;
+    font-size: 24px;
+    line-height: 24px;
+    transition: 1s;
+    color: #350344;
+    margin-bottom: 35px;
+}
+
+.generator__button:hover{
+    cursor: pointer;
+    background-color: rgba(159, 18, 57, 0.2);
+    color:#BAE6FD;
+    transition: 1s;
+    box-shadow: 3px 3px #A78BFA;
+}
+
+.generator__passwords-wrapper{
+    border-top: 2px solid rgba(186, 230, 253, 0.3);
+    display: flex;
+    justify-content: space-between;
+}
+
+.generator__password{
+    width: 211px;
+    height: 39px;
+    background-color: rgba(12, 74, 110, 0.5);
+    border-radius: 6px;
+
+    margin-top: 35px;
+    margin-bottom: 80px;
+    transition: 1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-family:'Franklin', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: pink;
+}
+
+.generator__password:hover{
+    cursor: pointer;
+    background-color: rgba(159, 18, 57, 0.2);
+    color:yellow;
+    transition: 1s;
+    box-shadow: 3px 3px #A78BFA;
+}
+
+@font-face {
+    font-family: 'Timonium';
+    src: url(../fonts/Timonium\ Black.otf);
+}
